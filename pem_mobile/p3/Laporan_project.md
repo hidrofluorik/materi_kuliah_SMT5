@@ -34,7 +34,9 @@ Langkah 2: Menyiapkan data Objek dan Array
 ![alt text](gambar4.png)
 10. Konfirmasi Bukti SOCIAL
 ![alt text](gambar5.png)
-
+11. ![alt text](gambar5.jpg)
+12. ![alt text](gambar6.jpg)
+![alt text](gambar7.jpg)
 IKUTI Semua Tahapan di Modul 
 dan berikut Hasilnya dengan gif.
 <img src="CV App.gif" alt="CV App" width="50%" >

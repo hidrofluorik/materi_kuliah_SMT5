@@ -51,3 +51,6 @@ Langkah 1 : Instalasi Pustaka Drawer
 
 Langkah 2 :Konfigurasi drawer di App.js
 ![alt text](ptmn-4-2.gif)
+
+
+![alt text](ptmn-4-3.gif)

@@ -1,21 +1,30 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+// Ganti import dari bottom-tabs ke drawer
+import { createDrawerNavigator } from '@react-navigation/drawer';
 
 // Import Screen
 import HomeScreen from './screens/HomeScreen';
 import ProfileScreen from './screens/ProfileScreen';
 
-// Inisialisasi Bottom Tab Navigator
-const Tab = createBottomTabNavigator();
+// Inisialisasi Drawer Navigator
+const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator initialRouteName="Home">
-        <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'Beranda' }} />
-        <Tab.Screen name="Profile" component={ProfileScreen} options={{ title: 'Profil' }} />
-      </Tab.Navigator>
+      <Drawer.Navigator initialRouteName="Home">
+        <Drawer.Screen 
+          name="Home" 
+          component={HomeScreen} 
+          options={{ title: 'Beranda' }} 
+        />
+        <Drawer.Screen 
+          name="Profile" 
+          component={ProfileScreen} 
+          options={{ title: 'Profil' }} 
+        />
+      </Drawer.Navigator>
     </NavigationContainer>
   );
 }
